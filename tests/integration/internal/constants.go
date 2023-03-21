@@ -356,6 +356,7 @@ var (
 		"otelcol_processor_batch_batch_size_trigger_send",
 		"otelcol_otelsvc_k8s_ip_lookup_miss",
 		"kube_pod_container_status_waiting_reason",
+		"kube_pod_container_status_terminated_reason",
 		// TODO: check different metrics depending on K8s version
 		// scheduler_scheduling_duration_seconds is present for K8s <1.23
 		// scheduler_scheduling_attempt_duration_seconds is present for K8s >=1.23
