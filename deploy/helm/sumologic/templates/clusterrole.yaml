@@ -15,6 +15,7 @@ rules:
   - events
   - namespaces
   - nodes
+  - nodes/metrics
   - pods
   - replicasets
   - services
